@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int Average,Boy1,Boy2,Boy3;
-    scanf("%d%d%d",&Average,&Boy1,&Boy2);
-    Boy3=(3*Average-Boy1-Boy2);
-    printf("%d",Boy3);
+    int a,b,c,x;
+    scanf("%d%d%d",&a,&b,&c);
+    x=(3*a-b-c);
+    printf("%d",x);
 }
